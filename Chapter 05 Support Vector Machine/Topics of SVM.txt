@@ -1,0 +1,62 @@
+choose hyperplane
+choose kernel with transform
+increase the number of dimensions.
+
+1. select hyperplane
+2. tranform kernel link connection. 
+
+=========================================================================== Hyperplane ===============================================================================
+1. Hyperplane in SVM:
+	•	Introduction to hyperplanes and their role in SVM classification
+	•	Understanding the concept of a separating hyperplane in feature space
+	•	Exploring the mathematical formulation of the hyperplane in SVM
+	•	Discussing the importance of selecting an optimal hyperplane for achieving accurate classification
+2. Margin and Support Vectors:
+	•	Understanding the concept of margin in SVM
+	•	Exploring the relationship between margin and generalization performance
+	•	Identifying support vectors and their significance in defining the optimal hyperplane
+	•	Discussing the impact of support vectors on the stability and robustness of SVM
+3. Margin Maximization and Optimal Hyperplane:
+	•	Introduction to margin maximization as the objective in SVM
+	•	Understanding the optimization problem in SVM for finding the optimal hyperplane
+	•	Exploring the mathematical formulation of margin maximization
+	•	Discussing different optimization algorithms for finding the optimal hyperplane (e.g., quadratic programming, convex optimization)
+4. Soft Margin SVM and Regularization:
+	•	Introduction to soft margin SVM and its role in handling non-linearly separable data
+	•	Understanding the concept of regularization in SVM
+	•	Exploring the trade-off between maximizing the margin and minimizing classification errors
+	•	Discussing the impact of regularization parameter (C) on the flexibility of the hyperplane selection
+5. Hyperplane Selection in High-Dimensional Space:
+	•	Challenges and considerations in hyperplane selection in high-dimensional feature spaces
+	•	Exploring the curse of dimensionality and its implications on hyperplane selection
+	•	Techniques for feature selection and dimensionality reduction to improve hyperplane selection
+	•	Discussing the impact of feature scaling and normalization on hyperplane selection in high-dimensional space
+
+=========================================================================== Kernel ===============================================================================
+
+1. Kernel Functions in SVM:
+	•	Introduction to kernel functions and their role in SVM
+	•	Understanding the mathematical properties of kernel functions
+	•	Exploring popular kernel functions, such as linear, polynomial, Gaussian (RBF), and sigmoid kernels
+	•	Discussing the impact of kernel choice on SVM performance and decision boundaries
+
+2. Mercer's Theorem and Positive Definite Kernels:
+	•	Understanding Mercer's theorem and its significance in SVM
+	•	Exploring the concept of positive definite kernels
+	•	Discussing the conditions that a kernel must satisfy to be positive definite
+	•	Explaining the implications of Mercer's theorem for SVM's optimization problem and learning process
+3. Kernel Trick and Nonlinear SVM:
+	•	Motivation behind using kernel functions for nonlinear SVM
+	•	Exploring the concept of the kernel trick and its role in SVM
+	•	Understanding how kernel functions map data into a higher-dimensional feature space
+	•	Discussing the advantages and limitations of the kernel trick in SVM
+4. Tuning Kernel Parameters:
+	•	Exploring the parameters associated with different kernel functions
+	•	Understanding the effects of kernel parameters on SVM model complexity and generalization
+	•	Techniques for selecting appropriate kernel parameters (e.g., grid search, cross-validation)
+	•	Discussing the trade-offs and considerations when tuning kernel parameters in SVM
+5. Multiple Kernels and Kernel Combination:
+	•	Introduction to multiple kernel learning in SVM
+	•	Exploring methods for combining multiple kernels in SVM
+	•	Discussing the benefits and challenges of using multiple kernels
+	•	Exploring advanced techniques for learning kernel weights and kernel selection
