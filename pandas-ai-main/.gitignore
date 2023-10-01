@@ -1,0 +1,13 @@
+# .env
+.env
+
+# __pycache__
+__pycache__
+
+# macOS
+.DS_Store
+
+# build
+build
+dist
+pandasai.egg-info
